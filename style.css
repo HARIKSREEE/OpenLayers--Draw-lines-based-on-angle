@@ -1,0 +1,103 @@
+#marker {
+    /*background-image: url("https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png");
+     width: 20px;
+     height: 20px;
+     border: 1px solid rgb(252, 16, 16);
+     border-radius: 10px;
+     border-bottom-right-radius: 5px 5px;
+     background-color: rgb(240, 36, 29);
+     opacity: 0.7;
+     cursor: move;*/
+   
+   width: 30px;
+     height: 30px;
+    border-radius: 50% 50% 50% 0;
+     background: #ccff00;
+     position : absolute;
+     transform : rotate(-45deg);
+     left: 50%;
+     top: 50%;
+     margin: -20px 0 0 -20px;
+     border: 2px solid ;
+     cursor: auto;
+     /*background-image: url("ol.png");
+     z-index: 10;*/
+   }
+   
+   #kazha {
+     text-decoration: none;
+     color: rgb(40, 40, 41);
+     font-size: 13pt;
+     font-weight: bold;
+     -webkit-text-stroke: .5px white;
+   }
+   
+   #kazha:hover{
+   
+     color: blue;
+   }
+   
+   .popover-content {
+     min-width: 180px;
+     background-color: rgb(92, 93, 94);
+     color: rgb(245, 243, 243);
+     border: 0px solid white;
+   }
+   
+   #clearMarker {
+     position: absolute;
+     z-index: 10;
+     left: 50%;
+     transform: translate(-50%, 5px);
+     background-color: rgb(100, 103, 105);
+     padding: 10px;
+     color: rgb(245, 250, 245);
+     width: 350px;
+     text-align: center;
+     font-weight: bold;
+   
+   }
+   #clearMarker:hover{
+   
+     color: black;
+     background-color: greenyellow;
+   }
+   
+   #map {
+     position: fixed;
+     z-index: 5;
+   }
+   
+   #code1 {
+     color: white;
+   }
+   
+   #locText {
+     margin-bottom: 0px;
+   }
+
+#showKey {
+    position: absolute;
+    z-index: 10;
+    left: 10%;
+    transform: translate(-50%, 5px);
+    background-color: rgb(100, 103, 105);
+    padding: 10px;
+    color: rgb(245, 250, 245);
+    width: 350px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #showKeyPara
+  {
+display: inline !important;
+
+  }
+
+  .ol-overlay-container .ol-selectable
+  {
+    display: inline !important;
+  }
+   
+   
